@@ -43,6 +43,7 @@ Focused on reproducible results, safe parsing, and open-source engineering.
   <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" alt="Splunk"/>
   <img src="https://img.shields.io/badge/Monitoring-2ea8ff?style=flat-square" alt="Monitoring"/>
   <img src="https://img.shields.io/badge/Log_Analysis-05070d?style=flat-square" alt="Log analysis"/>
+  <img src="https://img.shields.io/badge/Security_Analysis-2ea8ff?style=flat-square" alt="Security analysis"/>
   <img src="https://img.shields.io/badge/Traffic_Analysis-2ea8ff?style=flat-square" alt="Traffic analysis"/>
   <img src="https://img.shields.io/badge/Incident_Reporting-05070d?style=flat-square" alt="Security incident reporting"/>
 </p>
