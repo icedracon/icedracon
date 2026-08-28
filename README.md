@@ -33,15 +33,42 @@ Focused on reproducible results, safe parsing, and open-source engineering.
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"/>
 </p>
 
-<h2 align="center">Security &amp; Protocols</h2>
+<h2 align="center">Security Operations</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/EDR-05070d?style=flat-square" alt="EDR"/>
+  <img src="https://img.shields.io/badge/SIEM-2ea8ff?style=flat-square" alt="SIEM"/>
+  <img src="https://img.shields.io/badge/DLP-05070d?style=flat-square" alt="DLP"/>
+  <img src="https://img.shields.io/badge/SOC_Operations-2ea8ff?style=flat-square" alt="SOC operations"/>
+  <img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white" alt="Splunk"/>
+  <img src="https://img.shields.io/badge/Monitoring-2ea8ff?style=flat-square" alt="Monitoring"/>
+  <img src="https://img.shields.io/badge/Log_Analysis-05070d?style=flat-square" alt="Log analysis"/>
+  <img src="https://img.shields.io/badge/Traffic_Analysis-2ea8ff?style=flat-square" alt="Traffic analysis"/>
+  <img src="https://img.shields.io/badge/Incident_Reporting-05070d?style=flat-square" alt="Security incident reporting"/>
+</p>
+
+<h2 align="center">Windows &amp; Identity Protocols</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Active_Directory-1674EA?style=flat-square&logo=windows&logoColor=white" alt="Active Directory"/>
   <img src="https://img.shields.io/badge/Kerberos-2ea8ff?style=flat-square" alt="Kerberos"/>
-  <img src="https://img.shields.io/badge/NTLM-05070d?style=flat-square" alt="NTLM"/>
+  <img src="https://img.shields.io/badge/NTLMSSP-05070d?style=flat-square" alt="NTLMSSP"/>
   <img src="https://img.shields.io/badge/DCE%2FRPC-2ea8ff?style=flat-square" alt="DCE/RPC"/>
-  <img src="https://img.shields.io/badge/SMB-05070d?style=flat-square" alt="SMB"/>
-  <img src="https://img.shields.io/badge/Windows_Security-1674EA?style=flat-square&logo=windows11&logoColor=white" alt="Windows security"/>
+  <img src="https://img.shields.io/badge/NDR-05070d?style=flat-square" alt="NDR"/>
+  <img src="https://img.shields.io/badge/SMB2-2ea8ff?style=flat-square" alt="SMB2"/>
+  <img src="https://img.shields.io/badge/LDAP-05070d?style=flat-square" alt="LDAP"/>
+  <img src="https://img.shields.io/badge/DPAPI--NG-2ea8ff?style=flat-square" alt="DPAPI-NG"/>
+  <img src="https://img.shields.io/badge/WinRM-05070d?style=flat-square" alt="WinRM"/>
+  <img src="https://img.shields.io/badge/CredSSP-2ea8ff?style=flat-square" alt="CredSSP"/>
+</p>
+
+<h2 align="center">Engineering Focus</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Pure_Rust_Protocols-000000?style=flat-square&logo=rust&logoColor=white" alt="Pure Rust protocol engineering"/>
+  <img src="https://img.shields.io/badge/Windows_Internals-1674EA?style=flat-square&logo=windows11&logoColor=white" alt="Windows internals"/>
+  <img src="https://img.shields.io/badge/Safe_Binary_Parsing-05070d?style=flat-square" alt="Safe binary parsing"/>
+  <img src="https://img.shields.io/badge/Applied_Cryptography-2ea8ff?style=flat-square" alt="Applied cryptography"/>
 </p>
 
 <h2 align="center">Featured Open Source</h2>
