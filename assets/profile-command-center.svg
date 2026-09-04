@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">icedracon security research command center</title>
+  <desc id="desc">An obsidian command-center graphic for icedracon with blue discovery, violet mapping, amber validation, teal open-source delivery, and a red scope signal.</desc>
+  <defs>
+    <linearGradient id="background" x1="44" y1="20" x2="1396" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040811"/>
+      <stop offset=".52" stop-color="#07182D"/>
+      <stop offset="1" stop-color="#040811"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="94" y1="0" x2="1320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2EA8FF" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#2EA8FF"/>
+      <stop offset=".43" stop-color="#A78BFA"/>
+      <stop offset=".68" stop-color="#F7C948"/>
+      <stop offset=".9" stop-color="#55D6BE"/>
+      <stop offset="1" stop-color="#55D6BE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1034 156) rotate(90) scale(180 305)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1479D0" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#1479D0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#2EA8FF" stroke-opacity=".075"/>
+    </pattern>
+    <filter id="glowFilter" x="-80%" y="-80%" width="260%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="360" fill="#03060C"/>
+  <rect x="1" y="1" width="1438" height="358" rx="18" fill="url(#background)" stroke="#2EA8FF" stroke-opacity=".28"/>
+  <rect x="1" y="1" width="1438" height="358" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1034" cy="156" rx="305" ry="180" fill="url(#glow)"/>
+  <path d="M0 73H1440M0 286H1440" stroke="url(#flow)" stroke-opacity=".42"/>
+  <path d="M170 0L312 360M502 0L644 360M834 0L976 360M1166 0L1308 360" stroke="#A78BFA" stroke-opacity=".065"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="94" y="87" fill="#A78BFA" font-size="12" font-weight="700" letter-spacing="4">ICEDRACON // OPEN SECURITY SYSTEMS</text>
+    <text x="92" y="162" fill="#F5FBFF" font-size="52" font-weight="800" letter-spacing="-2">WINDOWS IDENTITY</text>
+    <text x="94" y="199" fill="#9DB6CB" font-size="17" font-weight="500" letter-spacing="1.3">RESEARCH SIGNAL · EVIDENCE-FIRST TOOLING · RUST FOUNDATIONS</text>
+    <rect x="94" y="224" width="340" height="2" fill="url(#flow)"/>
+    <text x="94" y="258" fill="#708AA1" font-size="13">An inspectable path from scoped discovery to defensible engineering.</text>
+  </g>
+
+  <g transform="translate(915 55)" opacity=".94">
+    <path d="M133 7C198 12 253 68 251 136C249 201 194 249 127 248C64 247 11 197 8 132C5 68 65 2 133 7Z" stroke="#2EA8FF" stroke-opacity=".72" stroke-width="2"/>
+    <path d="M54 85C97 43 172 43 213 85" stroke="#A78BFA" stroke-width="2"/>
+    <path d="M54 171C99 212 172 213 214 170" stroke="#55D6BE" stroke-width="2"/>
+    <path d="M27 128H236M132 23V233" stroke="#F7C948" stroke-opacity=".3"/>
+    <path d="M72 127L132 77L191 127L132 179Z" fill="#2EA8FF" fill-opacity=".11" stroke="#2EA8FF" stroke-opacity=".72"/>
+    <circle cx="132" cy="77" r="7" fill="#A78BFA" filter="url(#glowFilter)"/>
+    <circle cx="191" cy="127" r="7" fill="#F7C948" filter="url(#glowFilter)"/>
+    <circle cx="132" cy="179" r="7" fill="#55D6BE" filter="url(#glowFilter)"/>
+    <circle cx="72" cy="127" r="7" fill="#2EA8FF" filter="url(#glowFilter)"/>
+    <circle cx="251" cy="136" r="4" fill="#FB7185"/>
+  </g>
+
+  <g transform="translate(92 310)" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.8">
+    <circle cx="7" cy="-4" r="4" fill="#2EA8FF"/><text x="20" y="0" fill="#8DBEE1">DISCOVER</text>
+    <circle cx="151" cy="-4" r="4" fill="#A78BFA"/><text x="164" y="0" fill="#B8A9EE">MAP</text>
+    <circle cx="252" cy="-4" r="4" fill="#F7C948"/><text x="265" y="0" fill="#DEC97E">VALIDATE</text>
+    <circle cx="413" cy="-4" r="4" fill="#55D6BE"/><text x="426" y="0" fill="#92CDBE">SHIP</text>
+    <circle cx="514" cy="-4" r="4" fill="#FB7185"/><text x="527" y="0" fill="#D59CA8">SCOPE</text>
+  </g>
+</svg>
