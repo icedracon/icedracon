@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/profile-command-center.svg" alt="icedracon command center: discover, map, validate, ship" width="100%" />
+  <img src="assets/profile-command-center.svg" alt="icedracon cybersecurity command center: SOC response, malware analysis, identity, and mobile security" width="100%" />
 </p>
 
 <h1 align="center">icedracon</h1>
 
 <p align="center">
-  <strong>Security research for Windows identity.</strong><br />
-  <sub>Evidence-first Active Directory assessment · Windows authentication research · transparent Rust protocol tooling</sub>
+  <strong>Cybersecurity specialist across offensive research and defensive response.</strong><br />
+  <sub>SOC &amp; incident response · malware analysis · authorized Active Directory pentesting · Android / APK security testing</sub>
 </p>
 
 <p align="center">
@@ -15,17 +15,17 @@
   <a href="https://github.com/icedracon?tab=repositories"><img src="https://img.shields.io/badge/ALL%20CODE-GITHUB-55D6BE?style=flat-square&labelColor=03060C" alt="Explore all icedracon repositories" /></a>
 </p>
 
-## What I build
+## Specialist focus
 
-I build evidence-first security tools for authorized Active Directory assessment.
-I research Windows authentication and create small, inspectable Rust protocol
-foundations with reproducible results and safe parsing.
+I work across response, analysis, and authorized assessment. The goal is to turn
+a security signal into defensible context — whether the work begins in a SOC
+queue, a malware sample, a Windows domain, or a mobile application.
 
 <p>
-  <img src="https://img.shields.io/badge/01%20DISCOVER-AD%20POSTURE-2EA8FF?style=flat-square&labelColor=03060C" alt="Discover: Active Directory posture" />
-  <img src="https://img.shields.io/badge/02%20MAP-IDENTITY%20PROTOCOLS-A78BFA?style=flat-square&labelColor=03060C" alt="Map: identity protocols" />
-  <img src="https://img.shields.io/badge/03%20VALIDATE-REPRODUCIBLE%20EVIDENCE-F7C948?style=flat-square&labelColor=03060C" alt="Validate: reproducible evidence" />
-  <img src="https://img.shields.io/badge/04%20SHIP-OPEN%20RUST%20TOOLING-55D6BE?style=flat-square&labelColor=03060C" alt="Ship: open Rust tooling" />
+  <img src="https://img.shields.io/badge/SOC%20%2F%20IR-DETECT%20%26%20RESPOND-2EA8FF?style=flat-square&labelColor=03060C" alt="SOC and incident response: detect and respond" />
+  <img src="https://img.shields.io/badge/MALWARE-ANALYSIS-A78BFA?style=flat-square&labelColor=03060C" alt="Malware analysis" />
+  <img src="https://img.shields.io/badge/AD%20PENTEST-AUTHORIZED-F7C948?style=flat-square&labelColor=03060C" alt="Authorized Active Directory pentesting" />
+  <img src="https://img.shields.io/badge/ANDROID%20%2F%20APK-SECURITY%20TESTING-55D6BE?style=flat-square&labelColor=03060C" alt="Android and APK security testing" />
 </p>
 
 ## Selected work
@@ -43,14 +43,16 @@ foundations with reproducible results and safe parsing.
 <summary><strong>Open the research map</strong></summary>
 <br />
 
-- **Windows identity** — Active Directory, Kerberos, NTLMSSP, LDAP, SMB,
-  DCE/RPC, NDR, DPAPI-NG, WinRM, and CredSSP.
-- **Defensive evidence** — SIEM-oriented handoff, monitoring, log analysis,
-  incident reporting, and transparent validation.
-- **Adjacent defensive research** — Sigma/YARA detection work plus EDR and DLP
-  awareness. These are external controls, not claims about a single tool.
-- **Assessment boundaries** — Active Directory assessment is the native focus;
-  web and Android / APK testing are separate, explicitly scoped disciplines.
+- **SOC & incident response** — triage, investigation, monitoring, log
+  analysis, incident reporting, and evidence-led defensive decisions.
+- **Malware analysis** — sample triage, behavior analysis, indicators, and
+  reporting that helps response teams make informed choices.
+- **Windows identity & AD assessment** — Active Directory, Kerberos, NTLMSSP,
+  LDAP, SMB, DCE/RPC, NDR, DPAPI-NG, WinRM, and CredSSP in authorized scopes.
+- **Mobile and web assessment** — Android / APK and web security testing as
+  separate, explicitly scoped disciplines.
+- **Detection and controls** — SIEM-oriented handoff, Sigma/YARA research, and
+  EDR/DLP awareness. These are defensive ecosystems, not claims about one tool.
 - **Engineering** — pure Rust protocol implementation, authentication protocol
   work, safe binary parsing, and reproducible open-source tooling.
 
