@@ -1,12 +1,13 @@
 <p align="center">
-  <img src="assets/profile-command-center.svg" alt="icedracon cybersecurity command center: SOC response, malware analysis, identity, and mobile security" width="100%" />
+  <img src="assets/profile-banner.svg" alt="icedracon: SOC and incident response, malware analysis, AD and APK security" width="100%" />
 </p>
 
 <h1 align="center">icedracon</h1>
 
 <p align="center">
-  <strong>Cybersecurity specialist across offensive research and defensive response.</strong><br />
-  <sub>SOC &amp; incident response · malware analysis · authorized Active Directory pentesting · Android / APK security testing</sub>
+  <strong>Cybersecurity specialist · Security researcher · Rust developer</strong><br />
+  SOC &amp; incident response · Malware analysis<br />
+  Active Directory pentesting · Android / APK security testing
 </p>
 
 <p align="center">
@@ -33,9 +34,20 @@ queue, a malware sample, a Windows domain, or a mobile application.
 - [**ADhammer**](https://github.com/icedracon/adhammer) — evidence-first Active
   Directory assessment: collect scoped signal, map Tier-0 control paths, and
   keep supported proof connected to the report. [Project site](https://icedracon.github.io/adhammer/) · [Latest release](https://github.com/icedracon/adhammer/releases)
-- [**dcerpc**](https://github.com/icedracon/dcerpc) — Rust DCE/RPC protocol work.
-- [**ntlmssp**](https://github.com/icedracon/ntlmssp) — NTLMSSP / NTLMv2 protocol work.
-- [**ms-ndr**](https://github.com/icedracon/ms-ndr) — safe NDR parsing work.
+- [**windows-eventlog-native**](https://github.com/icedracon/windows-eventlog-native) — query Windows Event Logs and parse structured events for investigation and detection engineering. [API docs](https://docs.rs/windows-eventlog-native)
+- [**windows-sddl**](https://github.com/icedracon/windows-sddl) — inspect Windows security descriptors, ACLs, ACEs, and SIDs for access analysis. [API docs](https://docs.rs/windows-sddl)
+- [**dcerpc**](https://github.com/icedracon/dcerpc) — DCE/RPC transports and Microsoft protocol interfaces in Rust. [API docs](https://docs.rs/dcerpc)
+- [**smb2-client**](https://github.com/icedracon/smb2-client) — an async Rust SMB2 client for authenticated transport and file operations. [API docs](https://docs.rs/smb2-client)
+- [**win32-min**](https://github.com/icedracon/win32-min) — a focused Win32 foundation with documented safety contracts and ABI verification. [Ecosystem guide](https://github.com/icedracon/win32-min/blob/master/ECOSYSTEM.md)
+
+### For Rust developers
+
+Start with [NTLM authentication](https://crates.io/crates/ntlmssp),
+[NDR serialization](https://crates.io/crates/ms-ndr), or the
+[ADhammer SDK](https://crates.io/crates/adhammer-sdk).
+Check each package's documented maturity and supported scope before integrating it.
+
+[SDK documentation](https://docs.rs/adhammer-sdk) · [All repositories](https://github.com/icedracon?tab=repositories)
 
 ## Research areas
 
