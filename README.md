@@ -1,85 +1,87 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="icedracon: SOC and incident response, malware analysis, AD and APK security" width="100%" />
-</p>
-
-<h1 align="center">icedracon</h1>
-
-<p align="center">
-  <strong>Cybersecurity specialist · Security researcher · Rust developer</strong><br />
-  SOC &amp; incident response · Malware analysis<br />
-  Active Directory pentesting · Android / APK security testing
+  <img src="assets/profile-banner.svg" alt="icedracon — evidence-first security research and open-source systems" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/icedracon/adhammer"><img src="https://img.shields.io/badge/ADHAMMER-EXPLORE-2EA8FF?style=flat-square&labelColor=03060C" alt="Explore ADhammer" /></a>
-  <a href="https://icedracon.github.io/adhammer/"><img src="https://img.shields.io/badge/PROJECT%20SITE-OPEN-A78BFA?style=flat-square&labelColor=03060C" alt="Open the ADhammer project site" /></a>
-  <a href="https://github.com/icedracon?tab=repositories"><img src="https://img.shields.io/badge/ALL%20CODE-GITHUB-55D6BE?style=flat-square&labelColor=03060C" alt="Explore all icedracon repositories" /></a>
+  <a href="https://github.com/icedracon/adhammer"><img src="https://img.shields.io/github/stars/icedracon/adhammer?style=flat-square&label=ADhammer%20stars&labelColor=03060C&color=2EA8FF" alt="ADhammer stars" /></a>
+  <a href="https://github.com/icedracon/adhammer/releases/latest"><img src="https://img.shields.io/github/v/release/icedracon/adhammer?style=flat-square&label=latest&labelColor=03060C&color=A78BFA" alt="Latest ADhammer release" /></a>
+  <a href="https://icedracon.github.io/adhammer/"><img src="https://img.shields.io/badge/project%20site-open-55D6BE?style=flat-square&labelColor=03060C" alt="Open the ADhammer project site" /></a>
 </p>
 
-## Specialist focus
+I build **evidence-first security tools** for Windows identity, incident response,
+and authorized assessment — mostly in Rust. The work is designed to be
+inspectable: collect scoped signals, model the path, validate what is supported,
+and keep the evidence connected to the conclusion.
 
-I work across response, analysis, and authorized assessment. The goal is to turn
-a security signal into defensible context — whether the work begins in a SOC
-queue, a malware sample, a Windows domain, or a mobile application.
+```text
+signal  ──▶  scoped collection  ──▶  control path  ──▶  supported finding  ──▶  report
+```
 
-<p>
-  <img src="https://img.shields.io/badge/SOC%20%2F%20IR-DETECT%20%26%20RESPOND-2EA8FF?style=flat-square&labelColor=03060C" alt="SOC and incident response: detect and respond" />
-  <img src="https://img.shields.io/badge/MALWARE-ANALYSIS-A78BFA?style=flat-square&labelColor=03060C" alt="Malware analysis" />
-  <img src="https://img.shields.io/badge/AD%20PENTEST-AUTHORIZED-F7C948?style=flat-square&labelColor=03060C" alt="Authorized Active Directory pentesting" />
-  <img src="https://img.shields.io/badge/ANDROID%20%2F%20APK-SECURITY%20TESTING-55D6BE?style=flat-square&labelColor=03060C" alt="Android and APK security testing" />
-</p>
+## Flagship: ADhammer
 
-## Selected work
+[**ADhammer**](https://github.com/icedracon/adhammer) is an Active Directory
+security assessment platform built around a simple rule: **evidence, not
+assumptions**.
 
-- [**ADhammer**](https://github.com/icedracon/adhammer) — evidence-first Active
-  Directory assessment: collect scoped signal, map Tier-0 control paths, and
-  keep supported proof connected to the report. [Project site](https://icedracon.github.io/adhammer/) · [Latest release](https://github.com/icedracon/adhammer/releases)
-- [**windows-eventlog-native**](https://github.com/icedracon/windows-eventlog-native) — query Windows Event Logs and parse structured events for investigation and detection engineering. [API docs](https://docs.rs/windows-eventlog-native)
-- [**windows-sddl**](https://github.com/icedracon/windows-sddl) — inspect Windows security descriptors, ACLs, ACEs, and SIDs for access analysis. [API docs](https://docs.rs/windows-sddl)
-- [**dcerpc**](https://github.com/icedracon/dcerpc) — DCE/RPC transports and Microsoft protocol interfaces in Rust. [API docs](https://docs.rs/dcerpc)
-- [**smb2-client**](https://github.com/icedracon/smb2-client) — an async Rust SMB2 client for authenticated transport and file operations. [API docs](https://docs.rs/smb2-client)
-- [**win32-min**](https://github.com/icedracon/win32-min) — a focused Win32 foundation with documented safety contracts and ABI verification. [Ecosystem guide](https://github.com/icedracon/win32-min/blob/master/ECOSYSTEM.md)
+- Discover directory objects, policy, delegation, and trust relationships.
+- Map Tier-0 control paths and explain why each edge matters.
+- Validate findings only when the collected evidence supports them.
+- Produce human-readable reports without separating proof from impact.
 
-### For Rust developers
+**Explore:** [project site](https://icedracon.github.io/adhammer/) ·
+[source](https://github.com/icedracon/adhammer) ·
+[latest release](https://github.com/icedracon/adhammer/releases/latest) ·
+[SDK docs](https://docs.rs/adhammer-sdk)
 
-Start with [NTLM authentication](https://crates.io/crates/ntlmssp),
-[NDR serialization](https://crates.io/crates/ms-ndr), or the
-[ADhammer SDK](https://crates.io/crates/adhammer-sdk).
-Check each package's documented maturity and supported scope before integrating it.
+## Open-source systems
 
-[SDK documentation](https://docs.rs/adhammer-sdk) · [All repositories](https://github.com/icedracon?tab=repositories)
+| Layer | Projects | Purpose |
+|---|---|---|
+| **Identity & crypto** | [`kerbcore`](https://github.com/icedracon/kerbcore) · [`ntlmssp`](https://github.com/icedracon/ntlmssp) · [`dpapi-ng`](https://github.com/icedracon/dpapi-ng) | Kerberos, NTLMSSP, and Windows protected-data foundations in pure Rust |
+| **Wire & RPC** | [`smb2-client`](https://github.com/icedracon/smb2-client) · [`dcerpc`](https://github.com/icedracon/dcerpc) · [`ms-ndr`](https://github.com/icedracon/ms-ndr) | Authenticated transport, Microsoft RPC, and bounded data representation |
+| **Windows evidence** | [`windows-eventlog-native`](https://github.com/icedracon/windows-eventlog-native) · [`windows-sddl`](https://github.com/icedracon/windows-sddl) · [`ad-access`](https://github.com/icedracon/ad-access) | Event collection, security descriptors, and effective-access analysis |
+| **Native foundation** | [`win32-min`](https://github.com/icedracon/win32-min) | Focused Win32 interfaces with explicit safety contracts and ABI verification |
 
-## Research areas
+The libraries are intentionally small and composable. Together they form the
+protocol and evidence pipeline beneath higher-level assessment and defensive
+workflows.
+
+## Security practice
+
+| Discipline | What I optimize for |
+|---|---|
+| **SOC & incident response** | Fast triage, defensible context, and useful handoff |
+| **Malware analysis** | Behavior-led investigation and concise reporting |
+| **Active Directory security** | Identity relationships, privilege paths, and supported validation |
+| **Android / APK security** | Explicitly scoped static and dynamic assessment |
+
+## Selected build outside security
+
+[**ECHO**](https://github.com/icedracon/ECHO) is a private-by-design,
+cross-platform pixel-art desktop companion. It reacts to local activity,
+remembers between sessions, and runs without accounts or runtime telemetry.
+It is where I explore product design, animation systems, and local-first software.
+
+## Engineering principles
+
+- **Scope first.** Security work begins with explicit authorization and visible boundaries.
+- **Observed is not proved.** Collection, inference, and validation stay separate.
+- **Small foundations.** Protocol components remain focused, testable, and reusable.
+- **Useful evidence.** Results should help both the operator and the defender make a decision.
 
 <details>
-<summary><strong>Open the research map</strong></summary>
+<summary><strong>Research map</strong></summary>
 <br />
 
-- **SOC & incident response** — triage, investigation, monitoring, log
-  analysis, incident reporting, and evidence-led defensive decisions.
-- **Malware analysis** — sample triage, behavior analysis, indicators, and
-  reporting that helps response teams make informed choices.
-- **Windows identity & AD assessment** — Active Directory, Kerberos, NTLMSSP,
-  LDAP, SMB, DCE/RPC, NDR, DPAPI-NG, WinRM, and CredSSP in authorized scopes.
-- **Mobile and web assessment** — Android / APK and web security testing as
-  separate, explicitly scoped disciplines.
-- **Detection and controls** — SIEM-oriented handoff, Sigma/YARA research, and
-  EDR/DLP awareness. These are defensive ecosystems, not claims about one tool.
-- **Engineering** — pure Rust protocol implementation, authentication protocol
-  work, safe binary parsing, and reproducible open-source tooling.
+`Active Directory` · `Kerberos` · `NTLMSSP` · `LDAP` · `SMB2` · `DCE/RPC` ·
+`NDR` · `DPAPI-NG` · `Windows Event Log` · `security descriptors` ·
+`SOC / IR` · `malware analysis` · `Android / APK security` · `Rust`
 
 </details>
 
-## Working principles
+---
 
-- Make the scope visible before an assessment starts.
-- Treat an observed condition and a proved condition as different things.
-- Build tools that are inspectable, reproducible, and useful to defenders.
-
-<p>
-  <img src="https://img.shields.io/badge/SCOPE-AUTHORIZED%20RESEARCH%20ONLY-FB7185?style=flat-square&labelColor=03060C" alt="Scope: authorized research only" />
+<p align="center">
+  <strong>Authorized research. Reproducible evidence. Transparent tooling.</strong><br />
+  <a href="https://github.com/icedracon?tab=repositories">Explore all repositories</a>
 </p>
-
-Security research and assessment work is for systems I own or am explicitly
-authorized to test. The goal is transparent validation and stronger defensive
-decisions.
