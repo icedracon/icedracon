@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="ICEDRACON — cybersecurity, investigation, and open-source engineering" width="100%" />
+  <img src="assets/profile-intro.gif" alt="ICEDRACON — cybersecurity, investigation, and open-source engineering. A short orbital animation plays once; all text stays still." width="100%" />
 </p>
+
+<p align="right"><sub><a href="assets/profile-banner.svg">Static banner</a></sub></p>
 
 <p align="center">
   <a href="https://icedracon.github.io/adhammer/"><strong>ADhammer website ↗</strong></a>
