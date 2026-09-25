@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Method: scope, collect, analyze, validate, report"><title>Method: scope, collect, analyze, validate, report</title><style>
+    .flow{stroke-dasharray:6 10;animation:dash 1.6s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-32}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 5s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.25;transform:scale(1)}50%{opacity:.9;transform:scale(1.25)}}
+    .p0{animation-delay:0s}.p1{animation-delay:1s}.p2{animation-delay:2s}.p3{animation-delay:3s}.p4{animation-delay:4s}
+    @media (prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+  </style><rect x=".75" y=".75" width="1198.5" height="278.5" rx="20" fill="#0d1015" stroke="#262c36" stroke-width="1.5"/>
+  <defs><linearGradient id="lg" x1="120" x2="1080" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e5383b"/><stop offset="0.25" stop-color="#f77f00"/><stop offset="0.5" stop-color="#14b8a6"/><stop offset="0.75" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+  <path d="M120 118H1080" stroke="#262c36" stroke-width="4"/>
+  <path class="flow" d="M120 118H1080" stroke="url(#lg)" stroke-width="4"/><circle class="pulse p0" cx="120" cy="118" r="44" fill="none" stroke="#e5383b" stroke-width="2"/>
+    <circle cx="120" cy="118" r="34" fill="#141820" stroke="#e5383b" stroke-width="3"/>
+    <text x="120" y="125" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="700" fill="#e5383b">01</text>
+    <text x="120" y="202" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#e5383b">SCOPE</text>
+    <text x="120" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#9aa3ae">authorization &amp; boundaries</text><circle class="pulse p1" cx="360" cy="118" r="44" fill="none" stroke="#f77f00" stroke-width="2"/>
+    <circle cx="360" cy="118" r="34" fill="#141820" stroke="#f77f00" stroke-width="3"/>
+    <text x="360" y="125" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="700" fill="#f77f00">02</text>
+    <text x="360" y="202" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#f77f00">COLLECT</text>
+    <text x="360" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#9aa3ae">logs · traffic · artifacts</text><circle class="pulse p2" cx="600" cy="118" r="44" fill="none" stroke="#14b8a6" stroke-width="2"/>
+    <circle cx="600" cy="118" r="34" fill="#141820" stroke="#14b8a6" stroke-width="3"/>
+    <text x="600" y="125" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="700" fill="#14b8a6">03</text>
+    <text x="600" y="202" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#14b8a6">ANALYZE</text>
+    <text x="600" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#9aa3ae">behavior · identity · paths</text><circle class="pulse p3" cx="840" cy="118" r="44" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+    <circle cx="840" cy="118" r="34" fill="#141820" stroke="#8b5cf6" stroke-width="3"/>
+    <text x="840" y="125" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="700" fill="#8b5cf6">04</text>
+    <text x="840" y="202" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#8b5cf6">VALIDATE</text>
+    <text x="840" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#9aa3ae">observation ≠ proof</text><circle class="pulse p4" cx="1080" cy="118" r="44" fill="none" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="1080" cy="118" r="34" fill="#141820" stroke="#3b82f6" stroke-width="3"/>
+    <text x="1080" y="125" text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="20" font-weight="700" fill="#3b82f6">05</text>
+    <text x="1080" y="202" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#3b82f6">REPORT</text>
+    <text x="1080" y="228" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#9aa3ae">readable, reproducible</text><text x="36" y="40" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="2" fill="#9aa3ae">ENGAGEMENT PIPELINE · EVERY STEP LEAVES EVIDENCE</text></svg>

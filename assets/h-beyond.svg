@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="BEYOND SECURITY"><title>BEYOND SECURITY</title>
+  <defs><linearGradient id="g" x1="352.5" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ec4899"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></linearGradient></defs>
+  <text x="0" y="42" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="18" font-weight="700" fill="#ec4899">06</text>
+  <text x="38" y="43" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="1.5" fill="#ec4899">BEYOND SECURITY</text>
+  <rect x="352.5" y="34" width="647.5" height="2" fill="url(#g)"/>
+  <text x="1000" y="24" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="1" fill="#8b949e">// side quests</text></svg>
