@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-label="METHOD"><title>METHOD</title>
+  <defs><linearGradient id="g" x1="195" x2="1000" y1="0" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#14b8a6"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></linearGradient></defs>
+  <text x="0" y="42" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="18" font-weight="700" fill="#14b8a6">03</text>
+  <text x="38" y="43" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="1.5" fill="#14b8a6">METHOD</text>
+  <rect x="195" y="34" width="805" height="2" fill="url(#g)"/>
+  <text x="1000" y="24" text-anchor="end" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="12" letter-spacing="1" fill="#8b949e">// how I work</text></svg>

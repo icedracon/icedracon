@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">ICEDRACON — cybersecurity specialist and Rust engineer</title>
+  <desc id="desc">A near-black card with a crimson eclipse and orbital linework. Understand the system. Make the evidence clear.</desc>
+  <defs>
+    <radialGradient id="moon" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 210) scale(210)">
+      <stop offset="0" stop-color="#e5383b" stop-opacity=".42"/>
+      <stop offset=".55" stop-color="#9d0208" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#9d0208" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b0d10"/><stop offset="1" stop-color="#140a0c"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="64" x2="700" y1="0" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e5383b"/><stop offset="1" stop-color="#e5383b" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#e5383b" stop-opacity="0"/><stop offset=".5" stop-color="#e5383b" stop-opacity=".16"/><stop offset="1" stop-color="#e5383b" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="440" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .spin { transform-origin: 930px 210px; animation: spin 60s linear infinite; }
+    .spin-r { transform-origin: 930px 210px; animation: spin 90s linear infinite reverse; }
+    .scan { animation: scan 7s ease-in-out infinite; }
+    .blink { animation: blink 1.2s steps(1) infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes scan { 0% { transform: translateY(-120px); } 100% { transform: translateY(460px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .spin, .spin-r, .scan, .blink { animation: none; } }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <circle cx="930" cy="210" r="210" fill="url(#moon)"/>
+    <rect class="scan" y="0" width="1200" height="110" fill="url(#scan)"/>
+
+    <!-- eclipse + orbits -->
+    <g fill="none">
+      <circle cx="930" cy="210" r="96" stroke="#e5383b" stroke-width="2.5"/>
+      <circle cx="930" cy="210" r="88" fill="#0b0d10"/>
+      <circle cx="930" cy="210" r="150" stroke="#ffffff" stroke-opacity=".08"/>
+      <circle cx="930" cy="210" r="190" stroke="#ffffff" stroke-opacity=".05" stroke-dasharray="2 8"/>
+      <g class="spin">
+        <ellipse cx="930" cy="210" rx="170" ry="52" transform="rotate(-32 930 210)" stroke="#e5383b" stroke-opacity=".75" stroke-width="1.6"/>
+        <circle cx="1074" cy="120" r="6" fill="#e5383b"/>
+      </g>
+      <g class="spin-r">
+        <ellipse cx="930" cy="210" rx="170" ry="52" transform="rotate(32 930 210)" stroke="#d8dee9" stroke-opacity=".35" stroke-width="1.2"/>
+        <circle cx="786" cy="120" r="4.5" fill="#d8dee9"/>
+      </g>
+      <path d="M898 246L922 174M934 246L958 174" stroke="#e5383b" stroke-width="11" stroke-linecap="square"/>
+    </g>
+
+    <!-- type -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+      <text x="64" y="84" font-family="ui-monospace, 'SFMono-Regular', Consolas, monospace" font-size="15" fill="#e5383b" letter-spacing="1">~/icedracon<tspan fill="#8b939e"> $ whoami</tspan><tspan class="blink" fill="#e5383b"> ▌</tspan></text>
+      <text x="58" y="190" font-size="100" font-weight="800" letter-spacing="-4" fill="#f2efe9">ICEDRACON</text>
+      <text x="64" y="240" font-size="26" fill="#f2efe9">Cybersecurity specialist <tspan fill="#e5383b">·</tspan> Rust engineer</text>
+      <text x="64" y="276" font-size="19" fill="#8b939e">Understand the system. Make the evidence clear.</text>
+      <rect x="64" y="310" width="636" height="2" fill="url(#rule)"/>
+      <g font-size="13" font-weight="700" letter-spacing="2.5" fill="#c9ced6">
+        <text x="64" y="356"><tspan fill="#e5383b">01 </tspan>INVESTIGATION</text>
+        <text x="284" y="356"><tspan fill="#e5383b">02 </tspan>ASSESSMENT</text>
+        <text x="484" y="356"><tspan fill="#e5383b">03 </tspan>ENGINEERING</text>
+      </g>
+    </g>
+    <text x="930" y="400" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="12" letter-spacing="4" fill="#8b939e">SIGNAL → CONTEXT → EVIDENCE</text>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="438.5" rx="21.5" fill="none" stroke="#e5383b" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>
