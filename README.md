@@ -1,79 +1,94 @@
 <p align="center">
-  <img src="assets/profile-intro.gif" alt="ICEDRACON — cybersecurity, investigation, and open-source engineering. A short orbital animation plays once; all text stays still." width="100%" />
+  <img src="assets/hero.svg" alt="ICEDRACON — cybersecurity specialist and Rust engineer. Understand the system. Make the evidence clear." width="100%" />
 </p>
-
-<p align="right"><sub><a href="assets/profile-banner.svg">Static banner</a></sub></p>
 
 <p align="center">
-  <a href="https://icedracon.github.io/adhammer/"><strong>ADhammer website ↗</strong></a>
-  &nbsp; · &nbsp;
+  <a href="https://icedracon.github.io/adhammer/"><strong>ADhammer ↗</strong></a>
+  &nbsp;·&nbsp;
   <a href="https://github.com/icedracon?tab=repositories">Repositories</a>
-  &nbsp; · &nbsp;
-  <a href="https://docs.rs/adhammer-sdk">Rust SDK</a>
+  &nbsp;·&nbsp;
+  <a href="https://crates.io/crates/adhammer">crates.io</a>
+  &nbsp;·&nbsp;
+  <a href="https://docs.rs/adhammer-sdk">Rust SDK docs</a>
 </p>
 
-## Security work. Explainable results.
+<p align="center">
+  <img src="https://img.shields.io/badge/Rust-primary_language-e5383b?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Focus-SOC_%C2%B7_IR_%C2%B7_Assessment-0b0d10?style=flat-square" alt="Focus areas" />
+  <img src="https://img.shields.io/badge/Open_source-yes-2b2f36?style=flat-square" alt="Open source" />
+</p>
+
+## Profile
 
 I'm **icedracon**, a cybersecurity specialist and open-source developer.
-My focus spans SOC and incident response, malware analysis, and authorized
-Active Directory, web, and Android / APK pentesting.
+I work across **SOC and incident response**, **malware analysis**, and
+**authorized security assessment** (Active Directory, web, and Android).
 
-I build mostly in **Rust**, with a particular interest in Windows identity,
-protocol engineering, and evidence that another person can inspect.
+I build mostly in **Rust**. I'm especially interested in Windows identity,
+protocol engineering, and producing evidence that someone else can check.
 
-### 01 / Security practice
+## Core competencies
 
-| Focus | What matters to me |
+| Area | What I do |
 |:--|:--|
-| **SOC & incident response** | SIEM investigations, log and traffic analysis, EDR / DLP context, and clear incident handoffs. |
-| **Malware & detection** | Understanding behavior, documenting findings, and working with Sigma and YARA detection concepts. |
-| **Active Directory pentesting** | Identity relationships, directory posture, privilege paths, and evidence-backed conclusions within authorized scope. |
-| **Web & Android / APK pentesting** | Scoped application assessment, static and dynamic analysis, and actionable reporting. |
+| **SOC & incident response** | SIEM investigations, log and traffic analysis, EDR / DLP context, clear incident handoffs |
+| **Malware & detection** | Behavioral analysis, documented findings, Sigma and YARA detection concepts |
+| **Identity security** | Active Directory posture review and evidence-backed conclusions within authorized scope |
+| **Application assessment** | Scoped web and Android review, static and dynamic analysis, actionable reporting |
+| **Engineering** | Rust, protocol implementation, CLI tooling, structured reporting |
 
-These are my practice areas—not a claim that every project below implements them.
+<sub>These are my practice areas. Not every project below implements all of them.</sub>
 
-### 02 / Featured work
+## Featured project
 
-#### ADhammer
-**Active Directory assessment, built around evidence.**
+<table>
+  <tr>
+    <td width="32%" align="center">
+      <a href="https://github.com/icedracon/adhammer"><img src="assets/adhammer-logo.png" alt="ADhammer logo" width="100%" /></a>
+    </td>
+    <td>
+      <h3>ADhammer</h3>
+      <p><strong>Active Directory assessment, built around evidence.</strong></p>
+      <p>Open-source Rust CLI for directory assessment and structured reporting.
+      A possible finding is not proof: capability support and open validation work are tracked in the
+      <a href="https://github.com/icedracon/adhammer/blob/main/docs/VALIDATION.md">validation ledger</a>.</p>
+      <p>
+        <a href="https://icedracon.github.io/adhammer/">Website</a> ·
+        <a href="https://github.com/icedracon/adhammer">Source</a> ·
+        <a href="https://github.com/icedracon/adhammer/releases">Releases</a> ·
+        <a href="https://crates.io/crates/adhammer">crates.io</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-An open-source Rust CLI for directory assessment, Tier-0 path analysis, and
-structured reporting. A possible path is not proof: capability support and
-outstanding validation are recorded in the
-[validation ledger](https://github.com/icedracon/adhammer/blob/main/docs/VALIDATION.md).
+## Open-source building blocks
 
-[Explore the experience ↗](https://icedracon.github.io/adhammer/) ·
-[Read the source](https://github.com/icedracon/adhammer) ·
-[Releases](https://github.com/icedracon/adhammer/releases) ·
-[crates.io](https://crates.io/crates/adhammer)
+Small Rust libraries that bigger systems are built from. Each one documents its own scope and validation status.
 
-#### Protocols & Windows foundations
-
-Small building blocks for larger systems. Each project has its own scope,
-documentation, and validation status.
-
-| Area | Selected repositories |
+| Area | Repositories |
 |:--|:--|
 | **Identity & cryptography** | [kerbcore](https://github.com/icedracon/kerbcore) · [ntlmssp](https://github.com/icedracon/ntlmssp) · [dpapi-ng](https://github.com/icedracon/dpapi-ng) |
-| **Transport & representation** | [smb2-client](https://github.com/icedracon/smb2-client) · [dcerpc](https://github.com/icedracon/dcerpc) · [ms-ndr](https://github.com/icedracon/ms-ndr) |
+| **Transport & encoding** | [smb2-client](https://github.com/icedracon/smb2-client) · [dcerpc](https://github.com/icedracon/dcerpc) · [ms-ndr](https://github.com/icedracon/ms-ndr) |
 | **Windows evidence & access** | [windows-eventlog-native](https://github.com/icedracon/windows-eventlog-native) · [windows-sddl](https://github.com/icedracon/windows-sddl) · [ad-access](https://github.com/icedracon/ad-access) |
 | **Native interfaces** | [win32-min](https://github.com/icedracon/win32-min) |
 
-#### A different side: ECHO
-A pixel-art desktop companion and a place to explore product design,
-animation, and local-first software.
-[Meet ECHO ↗](https://github.com/icedracon/ECHO)
+→ [All repositories](https://github.com/icedracon?tab=repositories)
 
-### 03 / How I work
+## Beyond security
 
-**Scope before action.** Explicit authorization and clear boundaries.
+**[ECHO](https://github.com/icedracon/ECHO)**: a pixel-art desktop companion. It's where I explore product design, animation, and local-first software.
 
-**Evidence before conclusions.** Observation, inference, and proof stay distinct.
+## Principles
 
-**Clarity before noise.** Focused tools, readable reports, and reusable components.
+> **Scope before action.** Explicit authorization and clear boundaries.
+>
+> **Evidence before conclusions.** Observation, inference, and proof stay separate.
+>
+> **Clarity before noise.** Focused tools, readable reports, reusable components.
 
 ---
 
 <p align="center">
-  <sub>CYBERSECURITY &nbsp; / &nbsp; OPEN SOURCE &nbsp; / &nbsp; BUILT WITH INTENT</sub>
+  <sub>CYBERSECURITY &nbsp;/&nbsp; OPEN SOURCE &nbsp;/&nbsp; BUILT WITH INTENT</sub>
 </p>
